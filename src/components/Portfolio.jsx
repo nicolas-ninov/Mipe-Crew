@@ -4,21 +4,22 @@ function Portfolio() {
   return (
     <section className="section portfolio" id="portfolio">
       <div className="container">
-        <h2>Portfólio em construção com produções reais.</h2>
+        <h2>Produções automotivas criadas para destacar veículos.</h2>
 
         <p className="section-text">
-          Em breve, esta seção contará com vídeos reais produzidos para veículos
-          e concessionárias parceiras. Por enquanto, estamos estruturando a
-          apresentação visual da Mipe Crew.
+          Uma prévia dos conteúdos produzidos para valorizar design, acabamento,
+          presença visual e diferenciais de cada veículo.
         </p>
 
         <div className="video-grid">
           {portfolioItems.map((item) => (
             <article className="video-card" key={item.title}>
-              <div>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </div>
+              <iframe
+                src={item.embedUrl}
+                title={item.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </article>
           ))}
         </div>

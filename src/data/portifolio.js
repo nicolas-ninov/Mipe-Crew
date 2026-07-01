@@ -1,14 +1,22 @@
 export const portfolioItems = [
   {
     title: "Mercedes CLS 53",
-    description: "Produção audiovisual automotiva para destaque de design, acabamento e presença visual.",
+    embedUrl: "https://www.youtube.com/embed/JeAe5wu5o1U",
   },
   {
     title: "Dodge 392",
-    description: "Conteúdo focado em performance, impacto visual e valorização do veículo.",
+    embedUrl: "https://www.youtube.com/embed/imYcdQbg5t4",
   },
   {
     title: "Porsche 718",
-    description: "Apresentação premium para reforçar percepção de valor e desejo no comprador.",
+    embedUrl: "https://www.youtube.com/embed/2NDQKnP8Mgw",
+  },
+  {
+    title: "BMW X5",
+    embedUrl: "https://www.youtube.com/embed/98_VEl0gers",
+  },
+  {
+    title: "Projeto automotivo",
+    embedUrl: "https://www.youtube.com/embed/1GLsbCe_xM4",
   },
 ];
