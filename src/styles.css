@@ -169,12 +169,15 @@ h3 {
 
 .video-grid {
   margin-top: 42px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 22px;
 }
 
 .video-card {
+  width: 100%;
+  max-width: 350px;
   min-height: 340px;
   border-radius: 24px;
   background:
@@ -193,6 +196,8 @@ h3 {
   height: 100%;
   min-height: 340px;
   border: none;
+  border-radius: 22px;
+  overflow: hidden;
 }
 
 .steps {
@@ -237,6 +242,14 @@ h3 {
 
 .cta .btn {
   margin-top: 30px;
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .footer {
