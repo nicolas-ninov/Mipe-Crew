@@ -1,31 +1,26 @@
 function CTA() {
+  const whatsappMessage = encodeURIComponent(
+    "Olá! Vim pelo site da Mipe Crew e gostaria de conhecer melhor os serviços de produção de conteúdo para minha concessionária. Podemos conversar?"
+  );
+
   return (
     <section className="cta" id="contato">
       <div className="container">
-        <span className="tag">Vamos construir algo marcante?</span>
-
-        <h2>Pronto para destacar sua concessionária no digital?</h2>
+        <h2>Pronto para destacar seu estoque?</h2>
 
         <p>
-          Fale com a Mipe Crew e descubra como vídeos profissionais podem
-          valorizar seu estoque, fortalecer sua presença online e gerar mais
-          interesse nos seus veículos.
+          Produza conteúdos que valorizam seus veículos, fortalecem sua marca e
+          despertam o interesse dos clientes antes mesmo da primeira visita.
         </p>
 
-        <div className="cta-actions">
-          <a
-            className="btn primary"
-            href="https://wa.me/55SEUNUMERO"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Chamar no WhatsApp
-          </a>
-
-          <a className="btn secondary" href="#portfolio">
-            Ver portfólio
-          </a>
-        </div>
+        <a
+          className="btn primary"
+          href={`https://wa.me/5553981114827?text=${whatsappMessage}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Solicitar orçamento
+        </a>
       </div>
     </section>
   );
