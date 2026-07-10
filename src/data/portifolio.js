@@ -1,22 +1,27 @@
 export const portfolioItems = [
+
   {
-    title: "Mercedes CLS 53",
-    embedUrl: "https://www.youtube.com/embed/JeAe5wu5o1U",
+    title: "Porsche Macan",
+    embedUrl: "https://www.youtube.com/embed/vn-5aes_VGc",
   },
   {
     title: "Dodge 392",
-    embedUrl: "https://www.youtube.com/embed/imYcdQbg5t4",
-  },
-  {
-    title: "Porsche 718",
-    embedUrl: "https://www.youtube.com/embed/2NDQKnP8Mgw",
+    embedUrl: "https://www.youtube.com/embed/EIPtASYhQRg",
   },
   {
     title: "BMW X5",
-    embedUrl: "https://www.youtube.com/embed/98_VEl0gers",
+    embedUrl: "https://www.youtube.com/embed/Woi-xD3Mgv0",
   },
   {
-    title: "Projeto automotivo",
-    embedUrl: "https://www.youtube.com/embed/1GLsbCe_xM4",
+    title: "BMW X1 M Sport",
+    embedUrl: "https://www.youtube.com/embed/6FtS2roq_Mo",
   },
+  {
+    title: "Sandero Zen",
+    embedUrl: "https://www.youtube.com/embed/Rh0uGYItPPY",
+  },
+  {
+    title: "RAM Rebel",
+    embedUrl: "https://www.youtube.com/embed/itsIyZUvHow",
+  }
 ];
