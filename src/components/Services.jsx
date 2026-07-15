@@ -22,7 +22,18 @@ function Services() {
   return (
     <section className="section" id="servicos">
       <div className="container">
-        <h2>Mais do que vídeos: conteúdo que fortalece a imagem da sua concessionária.</h2>
+        <div className="services-header">
+          <h2>
+            Mais do que vídeos: conteúdo que fortalece a imagem da sua
+            concessionária
+          </h2>
+
+          <p>
+            Criamos materiais que ajudam cada veículo a transmitir mais valor,
+            fortalecer a presença digital da loja e despertar o interesse do
+            comprador antes mesmo da visita.
+          </p>
+        </div>
 
         <div className="cards">
           {services.map(({ icon: Icon, title, text }) => (

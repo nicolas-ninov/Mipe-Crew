@@ -6,7 +6,7 @@ function Hero() {
       className="hero"
       style={{ backgroundImage: `url(${bmwHero})` }}
     >
-      <div className="container">
+      <div className="container-wide">
         <div className="hero-content">
           <span className="tag">Conteúdo automotivo profissional</span>
 

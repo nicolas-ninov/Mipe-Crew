@@ -4,12 +4,14 @@ function Portfolio() {
   return (
     <section className="section portfolio" id="portfolio">
       <div className="container">
-        <h2>Produções automotivas criadas para destacar veículos.</h2>
+        <div className="portfolio-header">
+          <h2>Produções automotivas criadas para destacar veículos.</h2>
 
-        <p className="section-text">
-          Uma prévia dos conteúdos produzidos para valorizar design, acabamento,
-          presença visual e diferenciais de cada veículo.
-        </p>
+          <p>
+            Uma prévia dos conteúdos produzidos para valorizar design,
+            acabamento, presença visual e diferenciais de cada veículo.
+          </p>
+        </div>
 
         <div className="video-grid">
           {portfolioItems.map((item) => (
