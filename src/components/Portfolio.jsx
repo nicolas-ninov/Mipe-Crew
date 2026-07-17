@@ -5,7 +5,7 @@ function Portfolio() {
     <section className="section portfolio" id="portfolio">
       <div className="container">
         <div className="portfolio-header">
-          <h2>Produções automotivas criadas para destacar veículos.</h2>
+          <h2>Produções automotivas criadas para destacar veículos</h2>
 
           <p>
             Uma prévia dos conteúdos produzidos para valorizar design,

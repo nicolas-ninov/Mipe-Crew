@@ -4,8 +4,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-content">
-        <p>© 2026 Mipe Crew. Todos os direitos reservados.</p>
-
+        
         <a
           href="https://www.instagram.com/mipecrewfilms/"
           target="_blank"
@@ -16,6 +15,8 @@ function Footer() {
           <FaInstagram className="instagram-icon" />
           <span>@mipecrew</span>
         </a>
+
+        <p>© 2026 Mipe Crew. Todos os direitos reservados</p>
       </div>
     </footer>
   );

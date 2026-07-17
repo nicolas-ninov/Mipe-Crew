@@ -27,7 +27,7 @@ function Problem() {
 
           <h2>
             Seu estoque pode estar sendo ignorado antes mesmo do cliente visitar
-            a loja.
+            a loja
           </h2>
 
           <p>
