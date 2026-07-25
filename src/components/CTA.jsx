@@ -19,7 +19,7 @@ function CTA() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Solicitar orçamento
+          Falar no WhatsApp
         </a>
       </div>
     </section>
