@@ -8,14 +8,14 @@ function Footer() {
         <div className="footer-social">
 
           <a
-            href="https://www.instagram.com/mipecrewfilms/"
+            href="https://www.instagram.com/mipecrew/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
             aria-label="Instagram da Mipe Crew"
           >
             <FaInstagram className="social-icon" />
-            <span>@mipecrewfilms</span>
+            <span>@mipecrew</span>
           </a>
 
           <a
