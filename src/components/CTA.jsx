@@ -15,7 +15,7 @@ function CTA() {
 
         <a
           className="btn primary"
-          href={`https://wa.me/5553981114827?text=${whatsappMessage}`}
+          href={`https://wa.me/5548991924827?text=${whatsappMessage}`}
           target="_blank"
           rel="noopener noreferrer"
         >
